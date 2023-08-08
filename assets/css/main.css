@@ -295,10 +295,10 @@ section {
     align-items: center;
     justify-content: space-between;
     padding: 14px 20px;
-    font-family: var(--font-secondary);
-    font-size: 16px;
-    font-weight: 400;
-    color: rgba(var(--color-secondary-dark-rgb), 0.7);
+    font-family: var(--font-primary);
+    font-size: 18px;
+    font-weight: 500;
+    color: #242426;
     white-space: nowrap;
     transition: 0.3s;
     position: relative;
@@ -567,10 +567,10 @@ section {
 
 .hero-animated h2 {
   margin: 0 0 10px 0;
-  font-size: 48px;
-  font-weight: 300;
-  color: var(--color-secondary);
-  font-family: var(--font-secondary);
+  font-size: 36px;
+  font-weight: 600;
+  color: var(--color-links);
+  font-family: var(--font-primary);
 }
 
 .hero-animated h2 span {
@@ -578,7 +578,7 @@ section {
 }
 
 .hero-animated p {
-  color: rgba(var(--color-secondary-rgb), 0.8);
+  color:#2A2A2A;
   margin: 0 0 30px 0;
   font-size: 20px;
   font-weight: 400;
@@ -591,7 +591,7 @@ section {
 
 @media (min-width: 992px) {
   .hero-animated .animated {
-    max-width: 45%;
+    max-width:100%;
   }
 }
 
@@ -611,7 +611,7 @@ section {
   font-size: 16px;
   font-weight: 400;
   display: inline-block;
-  padding: 10px 28px;
+  padding: 8px 45px;
   border-radius: 4px;
   transition: 0.5s;
   color: var(--color-white);

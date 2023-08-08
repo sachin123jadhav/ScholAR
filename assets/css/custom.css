@@ -2,3 +2,48 @@
 .right-part .dropdown{  display: inline-block;}
 .login{margin: 0 15px;}
 .header .btn-getstarted, .header .btn-getstarted:focus{font-size: 14px;}
+p{color: #2A2A2A;}
+.lms img{padding: 15px;}
+.image-box{text-align: center;}
+.image-box h3{font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 14px; text-decoration: underline; }
+    .image-box p, .image-box li{color: var(--neutral-700, RGBA(42, 42, 42, 0.51));
+       
+        
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px; /* 171.429% */
+        letter-spacing: 0.28px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1200px){
+.h2, h2 {
+  font-size: 2.22rem;
+}
+
+}
