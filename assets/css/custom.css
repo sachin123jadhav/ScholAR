@@ -14,15 +14,38 @@ p{color: #2A2A2A;}
         
         font-size: 14px;
         font-style: normal;
-        font-weight: 600;
+        font-weight: 500;
         line-height: 24px; /* 171.429% */
         letter-spacing: 0.28px; }
 
+        ul.list-none{list-style-type: none;padding: 0;}
+        .list-box{text-align: start;
+          max-width: 95px;margin: 20px auto;}
+.image-box .list-box li{margin: 10px 0; color: #000;}      
+.image-box li img{padding-right: 5px;}  
+.image-box  h2{font-size: 36px; font-weight: bold;} 
+.space{display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;}
+.explore-btn{display: flex;
+  align-items: center;
+  gap: 8px; }
+  .magic-box-wrap{border-radius: 16px;
+    background: #000; padding: 40px 48px;}
+    
+    .magic-box-wrap p,  .magic-box-wrap h2,  .magic-box-wrap a{color: #fff;}
+
+    .magic-box-wrap p{margin: 32px 0;}
+    img.magic-img {position: absolute;
+      top: -60px;
+max-width: 551px;
+right: 188px;}
+
+      .magic-box{position: relative; padding: 120px 0;}
 
 
-
-
-
+p.cavet{font-family: 'Caveat', cursive; color: #F5983B; font-size: 24px;}
+.form-wrap input, .form-wrap textarea{ background-color: #F2F2F7;;}
 
 
 
@@ -47,3 +70,9 @@ p{color: #2A2A2A;}
 }
 
 }
+
+
+
+
+
+

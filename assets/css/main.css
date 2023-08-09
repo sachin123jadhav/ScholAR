@@ -3018,7 +3018,7 @@ section {
 }
 
 .footer .footer-content {
-  background: var(--color-secondary);
+  background: #000;
   padding: 60px 0 30px 0;
 }
 
@@ -3144,7 +3144,7 @@ section {
 
 .footer .footer-legal {
   padding: 30px 0;
-  background: var(--color-secondary-dark);
+
 }
 
 .footer .footer-legal .credits {
