@@ -1,4 +1,5 @@
 .lan{width: 15px;}
+.right-part {  display:flex}
 .right-part .dropdown{  display: inline-block;}
 .login{margin: 0 15px;}
 .header .btn-getstarted, .header .btn-getstarted:focus{font-size: 14px;}
@@ -31,17 +32,17 @@ p{color: #2A2A2A;}
   align-items: center;
   gap: 8px; }
   .magic-box-wrap{border-radius: 16px;
-    background: #000; padding: 40px 48px;}
+    background: #000; padding: 40px 48px; position: relative;}
     
     .magic-box-wrap p,  .magic-box-wrap h2,  .magic-box-wrap a{color: #fff;}
 
     .magic-box-wrap p{margin: 32px 0;}
     img.magic-img {position: absolute;
-      top: -60px;
+      top: -168px;
 max-width: 551px;
-right: 188px;}
+right: 0px;}
 
-      .magic-box{position: relative; padding: 120px 0;}
+      .magic-box{position: relative; padding: 200px 0;}
 
 
 p.cavet{font-family: 'Caveat', cursive; color: #F5983B; font-size: 24px;}
@@ -72,6 +73,21 @@ p.cavet{font-family: 'Caveat', cursive; color: #F5983B; font-size: 24px;}
 }
 
 
+
+@media (max-width: 575px){
+.hero-animated .animated {
+    max-width: 100%;
+}
+.hero-animated h2 {
+  font-size: 24px;
+}
+.hero-animated p {
+  font-size: 12px;
+  margin-bottom: 21px;
+}
+.hero-animated p.cavet {  font-size: 24px;}
+.mobile-reverse{flex-direction: column-reverse;}
+}
 
 
 
