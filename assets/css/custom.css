@@ -48,6 +48,18 @@ right: 0px;}
 p.cavet{font-family: 'Caveat', cursive; color: #F5983B; font-size: 24px;}
 .form-wrap input, .form-wrap textarea{ background-color: #F2F2F7;;}
 
+.header{box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15); }
+.package-wrap{border-radius: 12px;
+  background: #F2F2F7; text-align: left; padding: 35px;}
+
+.package-list li{display: flex;}
+.package-list li{ margin-bottom: 30px;}
+.package-list img{margin-right: 15px;}
+.btn-full{width: 100%;}
+.btn-white{background-color:#fff; color: #000;}
+.btn-white:hover{background-color: #ccc;}
+.bg-black h3, .bg-black li{color: #fff;}
+.simulation-img{max-width: 370px;}
 
 
 
@@ -58,37 +70,133 @@ p.cavet{font-family: 'Caveat', cursive; color: #F5983B; font-size: 24px;}
 
 
 
+.features li.nav-item {width: auto;}
+.features a.nav-link{display: ruby-base;border-radius: 10px;}
+.features a.nav-link img{margin-right: 10px;}
+.features nav{justify-content: space-between;}
+.tab-pane{margin-top: 100px;}
+
+.package-list li{margin-bottom: 30px;}
+.package-list {text-align: left;}
+.pruchase-setion{padding: 35px;
+  width: 275px;
+  aspect-ratio: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;margin: 0 0 0 auto;}
+.pruchase-setion h2, .pruchase-setion p{color: #fff;}
+.pruchase-setion p{font-size: 20px;}
+.old-price{font-size: 24px; }
 
 
 
-
-
-
-
-@media (min-width: 1200px){
-.h2, h2 {
-  font-size: 2.22rem;
+.ratings{display: flex;align-items: center;}
+.star-rating {
+  font-size: 30px;
+  cursor: pointer;
 }
 
+.star {
+  display: inline-block;
+  margin: 0 5px;
 }
 
-
-
-@media (max-width: 575px){
-.hero-animated .animated {
-    max-width: 100%;
+.star:hover,
+.star.selected {
+  color: gold;
 }
-.hero-animated h2 {
+.ratings p{margin-bottom: 0; margin-right: 15px;}
+.user-part{display: flex;margin-left: 20px;}
+.rating-section{display: flex;
+  align-items: center;}
+.filters{display: flex;}
+.btn-secondery{background: #F2F2F7; border-radius: 10px;}
+.filters .btn-secondery{border-top-right-radius: 0; border-bottom-right-radius: 0;}
+.filters select{background-color: #F2F2F7; margin: 0 10px;}
+.filters select + select{border-top-left-radius: 0; border-bottom-left-radius: 0; margin: 0;}
+.form-select:focus {
+  border-color: 0 ;
+  box-shadow: none;
+}
+
+.search-form{background-color: #F2F2F7;padding: .375rem 2.25rem .375rem .75rem;margin-top: 30px; border-radius: 10px;}
+.search-form input{background: #F2F2F7;
+  border: none;
+  width: calc(100% - 35px);}
+  .search-form button{background: transparent;
+    border: 0;}
+    input:focus-visible{outline: 0;}
+    .courses-list{margin-top: 30px;}
+    .courses-list h2{color: #000;
+      font-family: Poppins;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 24px;}
+.courses-list p{color: rgba(0, 0, 0, 0.40);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical; margin-bottom: 0; }
+
+  .pagination a.page-link{border-radius: 4px;
+    background: #F2F2F7; color: rgba(47, 51, 54, 0.70); }
+    .pagination  .page-item{margin: 0 5px;}
+.courses-right h2{color: #000;
+  font-family: Poppins;
   font-size: 24px;
-}
-.hero-animated p {
-  font-size: 12px;
-  margin-bottom: 21px;
-}
-.hero-animated p.cavet {  font-size: 24px;}
-.mobile-reverse{flex-direction: column-reverse;}
-}
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;}
+  .courses-righ p{color: #000;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; }
+
+.topics a{border-radius: 4px;
+  background: #F2F2F7; padding: 10px 20px;margin: 5px;
+  display: inline-block;}
 
 
 
+  @media (min-width: 1200px){
+    .h2, h2 {
+      font-size: 2.22rem;
+    }
+    
+    }
+    
+    
+    
+    @media (max-width: 575px){
+    .hero-animated .animated {
+        max-width: 100%;
+    }
+    .hero-animated h2 {
+      font-size: 24px;
+    }
+    .hero-animated p {
+      font-size: 12px;
+      margin-bottom: 21px;
+      
+    }
+    .hero-animated p.cavet {  font-size: 24px;}
+    .mobile-reverse{flex-direction: column-reverse;}
+    .package-wrap{margin-bottom: 30px;}
+    .contact-home img{display: none;}
 
+    .rating-section{flex-direction: column; text-align: left;}
+    .ratings, .user-part{width: 100%; margin: 5px 0;}
+    .pruchase-setion{margin: auto;}
+    .courses-list h2{margin-top: 15px;}
+    .courses-list{margin-bottom: 40px;}
+    .footer-newsletter{text-align: center;}
+ 
+    }
