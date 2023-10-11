@@ -276,7 +276,12 @@ a{text-decoration: underline;}
 
         /* New Css 8-10-23 */
 
-        .hero-animated{ background-image: url('/assets/img/bg-2.jpg');padding: 165px 0; background-repeat: repeat-x; background-size: cover;}
+        .hero-animated {
+          background-image: url('/assets/img/bg-2.jpg');
+          padding: 260px 0;
+          background-repeat: repeat-x;
+          background-size: cover;
+        }
 .fixed-top {
   position: relative;}
 
@@ -350,6 +355,90 @@ div a.btn-get-started.btn-orange{background-color: #F5983B;}
     border-radius: 0;
     font-weight: bold;margin-bottom: -2px;}
     .boost-inner .nav-pills .nav-link{color: #818282; font-size: 22px;}
+
+    .video-bg {
+      background-image: url(/assets/img/video-bg1.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 715px;
+      height: 730px;
+      background-position: top center;
+      margin-top: 0;
+      margin-bottom: -206px;
+      scale: 1.22;
+    }
+    
+/* Video Mask */
+
+.video-mask {
+  position: relative;
+  width: 100%;
+  width: 685px;
+  overflow: hidden;
+  mask-image: url(/assets/img/mask-sm.png);
+  height: 635px;
+  mask-size: cover;
+  margin-top: -150px;
+}
+  
+  video {
+    width: 1405px;
+    position: relative;
+    z-index: 1;
+    height: 800px;
+  }
+  
+  
+
+  @media (max-width:1366px){
+
+    .hero-animated {
+      background-image: url('/assets/img/bg-2.jpg');
+      padding: 120px 0;
+      background-repeat: repeat-x;
+      background-size: cover;
+    }
+  
+  
+  .video-bg {
+    background-image: url(/assets/img/video-bg1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 508px;
+    height: 523px;
+    background-position: top center;
+    margin-top: 0;
+    margin-bottom: -206px;
+    scale: 1.22;
+  }
+  
+  
+   .video-mask {
+      position: relative;
+      width: 500px;
+      overflow: hidden;
+      mask-image: url(/assets/img/mask--xs.png);
+      height: 450px;
+      background-size: cover;
+      background-image: url(/assets/img/mask--xs.png);
+    }
+  video {
+    width: 805px;
+    position: relative;
+    z-index: 1;
+    height: 470px;
+  }
+
+  }
+
+
+  @media (max-width:767px){
+    .hero-animated{padding: 66px 0;}
+    .video-bg{margin-top: 190px;
+  margin-bottom: 0;}
+  }
+
+
 
 
 
